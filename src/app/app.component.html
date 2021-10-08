@@ -1,0 +1,27 @@
+<h1>Tempareture Calculator</h1>
+<div class="outerDiv">
+
+  <div class="Block1">
+
+                  <div class="textbox">
+                    <input type="number" placeholder="Enter tempareture" #temp required />
+                  </div>
+
+                  <div>
+                    <mat-form-field appearance="fill">
+                      <mat-label>Select a type</mat-label>
+                      <mat-select [(value)]="selected">
+                        <mat-option value="Fahrenheit">Fahrenheit</mat-option>
+                        <mat-option value="Kelvin">Kelvin</mat-option>
+                      </mat-select>
+                    </mat-form-field>
+                  </div>
+
+                  <div>
+                    <button (click)="calculateTemp(temp.value)">Convert</button>
+                  </div>
+
+  
+      </div>
+      <p>Result in Celcious is: <span>{{result}}</span></p>
+</div>

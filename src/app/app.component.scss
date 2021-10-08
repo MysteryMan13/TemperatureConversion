@@ -1,0 +1,41 @@
+.Block1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    height: 8.5vh;
+    font-size: 15px;
+    outline: none;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+button{
+    width: 120px;
+    height: 8.5vh;
+    background-color: rgb(38, 158, 206);
+    border: none;
+    font-weight: bolder;
+    color: white;
+    border-radius: 5px;
+}
+
+.outerDiv{
+    margin: 20px;
+    border: 1px solid#ccc;
+    padding: 20px;
+    width: 45%;
+    box-sizing: border-box;
+    box-shadow: 0 3px 5px #ccc;
+    align-items: center;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+span{
+    font-size: larger;
+    color: blue;
+}
